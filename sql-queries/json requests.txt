@@ -1,0 +1,87 @@
+POST: customer
+{
+	"dlno":"123",
+	"emailid":"uttu@gmail.com",
+	"password":"password", 
+	"zipcode":"560010",
+	"street":"lalbagh",
+	"city":"bangalore", 
+	"state":"karnataka",
+	"fname":"john",
+	"lname":"op",
+	"phonenumber":"1234567890"
+}
+
+PUT 
+{
+	"field":"lname",
+	"newValue":"chachamore"
+}
+
+CAR 
+POST
+{
+	"rno":"100",
+	"availabiltyflag":true,
+	"model":"sx123", 
+	"mileage":"22",
+	"fueltype":"petrol",
+	"name":"swift", 
+	"locid":"123",
+}
+
+{
+	"field":"rno",
+	"newValue":"1"
+}
+
+
+LOCATION
+POST
+{
+	"locid":"2",
+	"name":"nice location",
+	"street":"old strreet", 
+	"state":"mah",
+	"zipcode":"5600123",
+	"city":"mumbai"
+}
+
+CAR_CATEGORY
+{
+    "name": "SUV",
+    "noofperson": 5,
+    "luggageweight": 100,
+    "costperday": 200
+}
+
+DISCOUNT
+{
+    "discountcode": "bohot",
+    "discountpercent": 5,
+    "name": "lmaowhat",
+    "expirydate": "2016-06-21T18:30:00.000Z"
+}
+
+BOOKING
+{
+	"bookingid":"123",
+	"fromdatetime":"2016-06-22 19:10:25-07",
+	"bookingstatus":"true", 
+	"returndatetime":"2016-06-22 19:10:25-07",
+	"actualreturndatetime":"2016-06-22 19:10:25-07",
+	"dlno":"15", 
+	"rno":"101",
+	"billid":"1",
+	"dropoff_locid":"1",
+	"pickup_locid":"1"   
+}
+
+BILLING
+{
+    
+    "billid": "1",
+    "billdate": "2016-06-21T18:30:00.000Z",
+    "discountcode": "bohotz1"
+    
+}
